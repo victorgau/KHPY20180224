@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>樸克牌猜大小遊戲</title>
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+  <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+  
+  <style>
+  h1 {
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+  .row {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="jumbotron text-center">
+<h1>樸克牌猜大小遊戲</h1>
+
+<br/>
+
+{% if poker %}
+    <img src='{{ url_for('static', filename=poker+".png") }}' />
+{% else %}
+    <img src='{{ url_for('static', filename="cover.png") }}' />
+{% endif %}
+
+{% if not result %}
+<br/><br/>
+<form action = "" method = "post">
+    <input class="btn btn-info" type="submit" name="submit" value="小">
+    <input class="btn btn-info" type="submit" name="submit" value="大">
+</form>
+{% else %}
+<br/><br/>
+    <a href="{{ url_for('index')}}" class="btn btn-warning" role="button">{{ result }} 再來一次！</a>
+<br/>
+{% endif %}
+
+</div>
+</div>
+
+</body>
+</html>
