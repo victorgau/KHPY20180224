@@ -10,7 +10,7 @@
 
 或直接點擊[此連結](https://github.com/victorgau/KHPY20180224/archive/master.zip)。
 
-### 上課所使用的軟體 (請預先下載至筆電)：
+### 下方連結為上課所使用的軟體 (請預先下載至筆電)：
 
 * [Anaconda 下載網址](https://www.anaconda.com/download/)
   * [Anaconda 安裝教學](https://goo.gl/68rgcv)
