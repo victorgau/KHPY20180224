@@ -4,7 +4,7 @@
 
 軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
 
-### 上課使用的工具軟體：
+### 上課所使用的軟體 (請預先下載至筆電)：
 
 * [Anaconda 下載網址](https://www.anaconda.com/download/)
   * [Anaconda 安裝教學](https://goo.gl/68rgcv)
