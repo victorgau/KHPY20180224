@@ -4,6 +4,10 @@
 
 軟體的部分預計會使用到 Anaconda (Python 懶人包) 及 Visual Studio Code (編輯器)，在課程中我們也會手把手的教同學們如何安裝及操作。
 
+### 關於上課講義的 .zip 檔
+
+由於講義內容不斷的更新，所以建議還是點擊此網頁右上方綠色按鍵`Clone and Download`，再按`Download ZIP`下載即可。
+
 ### 上課所使用的軟體 (請預先下載至筆電)：
 
 * [Anaconda 下載網址](https://www.anaconda.com/download/)
